@@ -26,7 +26,6 @@ package org.fluttercode.datafactory.impl;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
-import java.util.Properties;
 import java.util.Random;
 
 import org.fluttercode.datafactory.AddressDataValues;
@@ -540,8 +539,6 @@ public final class DataFactory {
 			}
 			return "I";
 		}
-
-		String value = null;
 
 		// start from random pos and find the first word of the right size
 		String[] words = contentDataValues.getWords();
